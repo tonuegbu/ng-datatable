@@ -1,7 +1,7 @@
 {
-  "name": "angular2-datatable",
-  "version": "0.6.0",
-  "description": "DataTable component for Angular2 framework",
+  "name": "ng-datatable",
+  "version": "0.6.1",
+  "description": "DataTable component for Angular framework",
   "main": "index.js",
   "scripts": {
     "prebuild": "rimraf lib",
@@ -15,12 +15,12 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/mariuszfoltak/angular2-datatable.git"
+    "url": "git+https://github.com/cmglez10/ng-datatable.git"
   },
   "keywords": [
     "angular",
     "angularjs",
-    "angular2",
+    "angular5",
     "ng",
     "ng2",
     "table",
@@ -28,45 +28,44 @@
     "sort",
     "sorting"
   ],
-  "author": "mariuszfoltak@gmail.com",
+  "author": "cmglez10@gmail.com",
   "license": "MIT",
   "bugs": {
     "url": "https://github.com/mariuszfoltak/angular2-datatable/issues"
   },
   "homepage": "https://github.com/mariuszfoltak/angular2-datatable#readme",
   "devDependencies": {
-    "@angular/core": "^2.1.0",
-    "@angular/compiler": "^2.1.0",
-    "@angular/common": "^2.1.0",
-    "@angular/platform-browser": "^2.1.0",
-    "@angular/platform-browser-dynamic": "^2.1.0",
-    "@angular/compiler-cli": "^2.1.0",
-    "core-js": "^2.4.1",
-    "http-server": "^0.9.0",
-    "jasmine-core": "^2.4.1",
-    "karma": "^1.3.0",
-    "karma-chrome-launcher": "^2.0.0",
+    "@angular/core": "^5.0.0",
+    "@angular/compiler": "^5.0.0",
+    "@angular/common": "^5.0.0",
+    "@angular/platform-browser": "^5.0.0",
+    "@angular/platform-browser-dynamic": "^5.0.0",
+    "@angular/compiler-cli": "^5.0.0",
+    "core-js": "^2.5.3",
+    "http-server": "^0.11.1",
+    "jasmine-core": "^2.8.0",
+    "karma": "^2.0.0",
+    "karma-chrome-launcher": "^2.2.0",
     "karma-coverage": "^1.1.1",
-    "karma-jasmine": "^1.0.2",
-    "karma-phantomjs-launcher": "^1.0.2",
-    "lodash": "^4.0.0",
+    "karma-jasmine": "^1.1.1",
+    "karma-phantomjs-launcher": "^1.0.4",
     "phantomjs-prebuilt": "^2.1.7",
-    "remap-istanbul": "^0.7.0",
-    "rxjs": "5.0.0-beta.12",
-    "systemjs": "^0.19.39",
-    "typescript": "~2.1.0",
-    "zone.js": "^0.6.25",
-    "rimraf": "^2.5.4",
-    "@types/lodash": "ts2.0",
-    "@types/jasmine": "^2.5.35"
+    "remap-istanbul": "^0.10.1",
+    "rxjs": "^5.4.3",
+    "systemjs": "^0.21.0",
+    "typescript": "2.6.x",
+    "zone.js": "^0.8.4",
+    "rimraf": "^2.6.2",
+    "@types/lodash": "4.14.104",
+    "@types/jasmine": "^2.8.6"
   },
   "dependencies": {
     "lodash": "^4.0.0"
   },
   "peerDependencies": {
-    "@angular/core": "^2.0.0",
-    "@angular/common": "^2.0.0",
-    "@angular/platform-browser": "^2.0.0",
-    "rxjs": "^5.0.0-beta.12"
+    "@angular/core": "^5.0.0",
+    "@angular/common": "^5.0.0",
+    "@angular/platform-browser": "^5.0.0",
+    "rxjs": "^5.4.3"
   }
 }
