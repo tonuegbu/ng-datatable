@@ -14,12 +14,12 @@
     ],
     "lib": [
       "dom",
-      "es2015"
+      "es2016"
     ],
     "baseUrl": ".",
     "paths": {
-      "angular2-datatable": ["../../.."],
-      "angular2-datatable/*": ["../../../*"]
+      "@cmglez10/ng-datatable": ["../../.."],
+      "@cmglez10/ng-datatable/*": ["../../../*"]
     }
   }
 }

@@ -1,5 +1,13 @@
 # Changelog
 
+## 0.7.0 (2018-03-15)
+
+
+Changes:
+    
+    - First commit of forked project (@cmglez10/ng-datatable)
+    - Updated to Angular 5
+    
 ## 0.6.0 (2017-03-27)
 
 Fixes:
