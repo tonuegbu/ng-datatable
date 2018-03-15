@@ -1,6 +1,6 @@
 {
-  "name": "ng-datatable",
-  "version": "0.6.1",
+  "name": "@cmglez10/ng-datatable",
+  "version": "0.6.2",
   "description": "DataTable component for Angular framework",
   "main": "index.js",
   "scripts": {
