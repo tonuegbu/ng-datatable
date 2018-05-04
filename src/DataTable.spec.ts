@@ -3,6 +3,7 @@ import {SimpleChange, Component} from "@angular/core";
 import {DataTable, PageEvent, SortEvent} from "./DataTable";
 import {TestBed, ComponentFixture} from "@angular/core/testing";
 import {By} from "@angular/platform-browser";
+import {switchMap} from 'rxjs/operators';
 import * as _ from "lodash";
 
 @Component({
@@ -211,10 +212,10 @@ describe("DataTable directive tests", ()=> {
 
         it("should call output event when sorting changed", (done)=> {
             datatable.ngDoCheck();
-            datatable.sortByChange.switchMap((sortBy: string)=> {
+            datatable.sortByChange.pipe(switchMap((sortBy: string)=> {
                 expect(sortBy).toEqual("id");
                 return datatable.sortOrderChange;
-            }).subscribe((sortOrder: string)=> {
+            })).subscribe((sortOrder: string)=> {
                 expect(sortOrder).toEqual("desc");
                 done();
             });
