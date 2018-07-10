@@ -18,8 +18,8 @@
     ],
     "baseUrl": ".",
     "paths": {
-      "@cmglez10/ng-datatable": ["../../.."],
-      "@cmglez10/ng-datatable/*": ["../../../*"]
+      "@pascalhonegger/ng-datatable": ["../../.."],
+      "@pascalhonegger/ng-datatable/*": ["../../../*"]
     }
   }
 }
