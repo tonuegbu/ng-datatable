@@ -2,7 +2,7 @@ import {NgModule} from "@angular/core";
 import {AppComponent} from "./app.component";
 import {BrowserModule} from "@angular/platform-browser";
 import {DataTableModule} from "@cmglez10/ng-datatable";
-import {HttpModule} from "@angular/http";
+import {HttpClientModule} from "@angular/common/http";
 import {DataFilterPipe} from "./data-filter.pipe";
 import {FormsModule} from "@angular/forms";
 
@@ -11,7 +11,7 @@ import {FormsModule} from "@angular/forms";
         BrowserModule,
         DataTableModule,
         FormsModule,
-        HttpModule
+        HttpClientModule
     ],
     declarations: [
         AppComponent,

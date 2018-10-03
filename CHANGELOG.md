@@ -1,5 +1,11 @@
 # Changelog
 
+## 0.7.2 (2018-10-03)
+
+Changes:
+    
+    - Updated examples dependencies. (Thanks to @PascalHonegger)
+
 ## 0.7.1 (2018-10-03)
 
 Changes:
