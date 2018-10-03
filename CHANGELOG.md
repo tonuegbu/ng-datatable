@@ -1,7 +1,13 @@
 # Changelog
 
-## 0.7.0 (2018-03-15)
+## 0.7.1 (2018-10-03)
 
+Changes:
+    
+    - Angular and RxJS get updated to version 6 (see package.json). The only code changes include changes to systemjs.config and two import statements.
+    (Pull Request #3. Thanks to @PascalHonegger)
+
+## 0.7.0 (2018-03-15)
 
 Changes:
     
