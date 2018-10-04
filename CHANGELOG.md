@@ -1,5 +1,11 @@
 # Changelog
 
+## 0.7.3 (2018-10-04)
+
+Changes:
+    
+    - Security updates in dependencies.
+
 ## 0.7.2 (2018-10-03)
 
 Changes:

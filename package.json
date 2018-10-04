@@ -1,6 +1,6 @@
 {
   "name": "@cmglez10/ng-datatable",
-  "version": "0.7.1",
+  "version": "0.7.3",
   "description": "DataTable component for Angular framework",
   "main": "index.js",
   "scripts": {
@@ -34,29 +34,29 @@
   },
   "homepage": "https://github.com/cmglez10/ng-datatable#readme",
   "devDependencies": {
-    "@angular/core": "^6.0.0",
-    "@angular/compiler": "^6.0.0",
     "@angular/common": "^6.0.0",
+    "@angular/compiler": "^6.0.0",
+    "@angular/compiler-cli": "^6.0.0",
+    "@angular/core": "^6.0.0",
     "@angular/platform-browser": "^6.0.0",
     "@angular/platform-browser-dynamic": "^6.0.0",
-    "@angular/compiler-cli": "^6.0.0",
+    "@types/jasmine": "^2.8.7",
+    "@types/lodash": "4.14.109",
     "core-js": "^2.5.5",
     "http-server": "^0.11.1",
     "jasmine-core": "^3.1.0",
-    "karma": "^2.0.2",
+    "karma": "^3.0.0",
     "karma-chrome-launcher": "^2.2.0",
     "karma-coverage": "^1.1.2",
     "karma-jasmine": "^1.1.2",
     "karma-phantomjs-launcher": "^1.0.4",
-    "phantomjs-prebuilt": "^2.1.7",
+    "phantomjs-prebuilt": "^2.1.16",
     "remap-istanbul": "^0.11.1",
+    "rimraf": "^2.6.2",
     "rxjs": "^6.0.0",
     "systemjs": "^0.21.3",
     "typescript": "2.7.x",
-    "zone.js": "^0.8.26",
-    "rimraf": "^2.6.2",
-    "@types/lodash": "4.14.109",
-    "@types/jasmine": "^2.8.7"
+    "zone.js": "^0.8.26"
   },
   "dependencies": {
     "lodash": "^4.17.10"
