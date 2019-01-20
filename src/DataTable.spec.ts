@@ -182,7 +182,7 @@ describe("DataTable directive tests", ()=> {
             });
             datatable.ngDoCheck();
             datatable.sortBy = "id";
-            datatable.sortOrder = "bulb";
+            datatable.sortOrder = "bulb" as "asc";
             datatable.ngOnChanges({
                 sortBy: new SimpleChange(null, datatable.sortBy, false),
                 sortOrder: new SimpleChange(null, datatable.sortOrder, false)
@@ -229,7 +229,7 @@ describe("DataTable directive tests", ()=> {
                 done.fail("Shouldn't call sortOrderChange");
             });
             done();
-            datatable.sortOrder = "bulb";
+            datatable.sortOrder = "bulb" as "desc";
             datatable.ngOnChanges({sortOrder: new SimpleChange(null, datatable.sortOrder, false)});
             datatable.ngDoCheck();
         });

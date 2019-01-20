@@ -30,7 +30,7 @@ export class DataTable implements OnChanges, DoCheck {
     @Input("mfData") public inputData: any[] = [];
 
     @Input("mfSortBy") public sortBy: string|string[] = "";
-    @Input("mfSortOrder") public sortOrder = "asc";
+    @Input("mfSortOrder") public sortOrder: "asc" | "desc" = "asc";
     @Output("mfSortByChange") public sortByChange = new EventEmitter<string|string[]>();
     @Output("mfSortOrderChange") public sortOrderChange = new EventEmitter<string>();
 
@@ -52,7 +52,7 @@ export class DataTable implements OnChanges, DoCheck {
         return {sortBy: this.sortBy, sortOrder: this.sortOrder};
     }
 
-    public setSort(sortBy: string|string[], sortOrder: string): void {
+    public setSort(sortBy: string|string[], sortOrder: "asc" | "desc"): void {
         if (this.sortBy !== sortBy || this.sortOrder !== sortOrder) {
             this.sortBy = sortBy;
             this.sortOrder = includes(["asc","desc"], sortOrder) ? sortOrder : "asc";
