@@ -1,5 +1,26 @@
 # Changelog
 
+## 9.0.1 (2019-11-06)
+
+Changes:
+    
+    - Use Angular 9
+    - Use Angular CLI for build pipeline
+    - Fix some linting issues
+
+## 8.0.0 (2019-11-06)
+
+Changes:
+    
+    - Use Angular 8
+
+## 2.0.0 (2018-07-10)
+
+Changes:
+    
+    - Published as package @pascalhonegger/ng-datatable
+    - Use Angular 7
+
 ## 0.7.3 (2018-10-04)
 
 Changes:
