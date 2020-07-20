@@ -1,6 +1,6 @@
 {
   "name": "@pascalhonegger/ng-datatable",
-  "version": "9.0.1",
+  "version": "10.0.0",
   "description": "DataTable component for Angular framework",
   "repository": {
     "type": "git",
@@ -8,7 +8,7 @@
   },
   "keywords": [
     "angular",
-    "angular9",
+    "angular10",
     "angularcli",
     "ivy",
     "ng",
@@ -28,7 +28,9 @@
   "peerDependencies": {
     "@angular/common": "^9.0.0",
     "@angular/core": "^9.0.0",
-    "tslib": "^1.10.0",
     "lodash": "^4.17.15"
+  },
+  "dependencies": {
+    "tslib": "^2.0.0"
   }
 }

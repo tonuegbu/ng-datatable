@@ -3,7 +3,7 @@ import {DataTable, PageEvent, SortEvent} from "./DataTable";
 import {TestBed, ComponentFixture} from "@angular/core/testing";
 import {By} from "@angular/platform-browser";
 import {switchMap} from "rxjs/operators";
-import * as _ from "lodash";
+import {times} from "lodash";
 
 @Component({
     template: `<table [mfData]="[]"></table>`
@@ -375,7 +375,7 @@ describe("DataTable directive tests", () => {
                 expect(opt.rowsOnPage).toEqual(2);
                 done();
             });
-            _.times(3, () => datatable.inputData.pop());
+            times(3, () => datatable.inputData.pop());
             datatable.ngDoCheck();
         });
 
@@ -445,7 +445,7 @@ describe("DataTable directive tests", () => {
             datatable.setPage(2, 1);
             datatable.ngDoCheck();
 
-            _.times(5, () => datatable.inputData.pop());
+            times(5, () => datatable.inputData.pop());
             datatable.ngDoCheck();
             expect(datatable.inputData.length).toEqual(0);
             expect(datatable.activePage).toEqual(1);
