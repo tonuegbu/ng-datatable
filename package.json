@@ -14,7 +14,7 @@
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/PascalHonegger/ng-datatable.git"
+    "url": "git+https://github.com/tonuegbu/ng-datatable.git"
   },
   "private": true,
   "dependencies": {
