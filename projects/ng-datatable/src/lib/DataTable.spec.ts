@@ -3,7 +3,8 @@ import {DataTable, PageEvent, SortEvent} from "./DataTable";
 import {TestBed, ComponentFixture} from "@angular/core/testing";
 import {By} from "@angular/platform-browser";
 import {switchMap} from "rxjs/operators";
-import {times} from "lodash";
+// import {times} from "lodash";
+import times from 'lodash-es/times'
 
 @Component({
     template: `<table [mfData]="[]"></table>`

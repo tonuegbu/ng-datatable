@@ -1,4 +1,5 @@
-import {filter} from "lodash";
+// import {filter} from "lodash";
+import filter from 'lodash-es/filter'
 import {Pipe, PipeTransform} from "@angular/core";
 
 @Pipe({
